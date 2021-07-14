@@ -43,7 +43,7 @@ This app helps you to connect and schedule matches with your friends using Disco
 
 ## 🔖 Layout
 
-You can access the layout [here.](https://www.figma.com/file/0kv33XYjvOgvKGKHBaiR07/GamePlay-NLW-Together?node-id=58913%3A83). 
+You can access the layout [here](https://www.figma.com/file/0kv33XYjvOgvKGKHBaiR07/GamePlay-NLW-Together?node-id=58913%3A83). 
 
 
 ## Running the project
