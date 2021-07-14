@@ -17,7 +17,7 @@
 
 ## Project
 
-This app helps you to connect and schedule matches with your friends using Discord API to authenticate and fetch the needed information.
+This [Next Level Week](https://nextlevelweek.com/) project, helps you to connect and schedule matches with your friends using Discord API to authenticate and fetch the needed information.
 
 
 ## Technologies
