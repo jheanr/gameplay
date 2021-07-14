@@ -1,8 +1,8 @@
 <p align="center">
-  <a href="#-project">Project</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#-license">License</a>
+  <a href="#project">Project</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#license">License</a>
 </p>
 
 <p align="center">
@@ -15,12 +15,12 @@
 ![cover](.github/cover.png?style=flat)
 
 
-## 💻 Project
+## Project
 
 This app helps you to connect and schedule matches with your friends using Discord API to authenticate and fetch the needed information.
 
 
-## ✨ Technologies
+## Technologies
 
 * React Native
 * Typescript
@@ -41,7 +41,7 @@ This app helps you to connect and schedule matches with your friends using Disco
 * Deep Link
 
 
-## 🔖 Layout
+## Layout
 
 You can access the layout [here](https://www.figma.com/file/0kv33XYjvOgvKGKHBaiR07/GamePlay-NLW-Together?node-id=58913%3A83). 
 
@@ -65,6 +65,6 @@ CDN_IMAGE=
 ```
 
 
-## 📄 License
+## License
 
 This project is under a MIT License. See [LICENSE](LICENSE.md) for details.
