@@ -1,6 +1,7 @@
 <p align="center">
   <a href="#project">Project</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#running-the-project">Running the project</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#license">License</a>
 </p>
@@ -17,7 +18,7 @@
 
 ## Project
 
-This [Next Level Week](https://nextlevelweek.com/) project, helps you to connect and schedule matches with your friends using Discord API to authenticate and fetch the needed information.
+This project was developed during the [Next Level Week](https://nextlevelweek.com/) by [Rocketseat](https://rocketseat.com.br). This app helps you to connect and schedule matches with your friends using Discord API to authenticate and fetch the needed information.
 
 
 ## Technologies
@@ -41,22 +42,17 @@ This [Next Level Week](https://nextlevelweek.com/) project, helps you to connect
 * Deep Link
 
 
-## Layout
-
-You can access the layout [here](https://www.figma.com/file/0kv33XYjvOgvKGKHBaiR07/GamePlay-NLW-Together?node-id=58913%3A83). 
-
-
 ## Running the project
 
-Use **yarn** or **npm install** to install the dependencies.
+Clone the project and access the folder.
 
-```cl
-expo start
+```shell
+$ git clone https://github.com/jheanr/gameplay.git && cd gameplay
 ```
 
 You must create an app on Discord Developer Portal to get your credentials to authenticate. After that, edit the file **.env.example** and rename to **.env**
  
- ```cl
+ ```shell
 REDIRECT_URI=
 SCOPE=
 RESPONSE_TYPE=
@@ -64,7 +60,21 @@ CLIENT_ID=
 CDN_IMAGE=
 ```
 
+Follow these steps:
+
+```shell
+# Install the dependencies
+$ yarn
+
+# Run Expo
+$ expo start
+```
+
+## Layout
+
+You can access the layout [here](https://www.figma.com/file/0kv33XYjvOgvKGKHBaiR07/GamePlay-NLW-Together?node-id=58913%3A83). 
+
 
 ## License
 
-This project is under a MIT License. See [LICENSE](LICENSE.md) for details.
+This project is under the MIT License. See the [LICENSE](LICENSE.md) file for details.
