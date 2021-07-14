@@ -1,6 +1,6 @@
 <p align="center">
+  <a href="#-project">Project</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#-projeto">Project</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#memo-licença">License</a>
 </p>
@@ -15,58 +15,44 @@
 ![cover](.github/cover.png?style=flat)
 
 
-## 💻 Projeto
-Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jogar com os amigos. Crie grupos para jogar seus games favoritos com seus amigos com esse App que possui autenticação com Discord.
+## 💻 Project
 
+This app helps you to connect and schedule matches with your friends using Discord API to authenticate and fetch the needed information.
 
-## :hammer_and_wrench: Features 
+## ✨ Technologies
 
--   [ ] Autenticação Social OAuth2 com servidor do Discord.
--   [ ] Obtém perfil do usuário cadastro no Discord (username e avatar);
--   [ ] Lista os servidores do Discord que o usuário faz parte;
--   [ ] Permite realizar o agendamento de partidas;
--   [ ] Permite filtrar as partidas por categoria;
--   [ ] Exibe se a partida foi agendada em um servidor próprio (anfitrião) ou em servidores de outros (convidado);
--   [ ] Compartilha o convite para ingressar no servidor do usuário;
--   [ ] Permite redirecionar o usuário para o seu próprio servidor;
--   [ ] Disponibiliza a função de Logout.
-
-
-## ✨ Tecnologias
-
--   [ ] React Native
--   [ ] Typescript
--   [ ] Expo
--   [ ] Context API
--   [ ] Async Storage
--   [ ] Vector Icons
--   [ ] React Native Svg e Svg Transform
--   [ ] Axios
--   [ ] Gradient colors
--   [ ] OAuth2 Discord 
--   [ ] Expo Google Fonts
--   [ ] React Navigation Stack
--   [ ] React Native Gesture Handler
--   [ ] Expo Authentication
--   [ ] React Native Share
--   [ ] Deep Link
-
+* React Native
+* Typescript
+* Expo
+* Context API
+* Async Storage
+* Vector Icons
+* React Native Svg  
+* Svg Transform
+* Axios
+* Gradient colors
+* Discord API
+* Expo Google Fonts
+* React Navigation Stack
+* React Native Gesture Handler
+* Expo Authentication
+* React Native Share
+* Deep Link
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/0kv33XYjvOgvKGKHBaiR07/GamePlay-NLW-Together?node-id=58913%3A83). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
+You can access the layout [here.](https://www.figma.com/file/0kv33XYjvOgvKGKHBaiR07/GamePlay-NLW-Together?node-id=58913%3A83). 
 
 
-## Executando o projeto
+## Running the project
 
-Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
-Em seguida, inicie o projeto.
+Use **yarn** or **npm install** to install the dependencies.
 
 ```cl
 expo start
 ```
 
-Lembre-se de criar o seu App no servidor do Discord para obter as credencias de autenticação. Em seguida, defina no arquivo .env as configurações do seu App (remova o example do arquivo .env.example).
+You must create an app on Discord Developer Portal to get your credentials to authenticate. After that, edit the file **.env.example** and rename to **.env**
  
  ```cl
 REDIRECT_URI=
@@ -77,15 +63,6 @@ CDN_IMAGE=
 ```
 
 
-## 📄 Licença
+## 📄 License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
-<br />
-
-<div align="center">
-  <small>Desenvolvido por Rodrigo Gonçalves Santana - Junho/2021</small>
-
-  [![Instagram Badge](https://img.shields.io/badge/-rodrigo.goncalves.s-6633cc?style=flat-square&labelColor=6633cc&logo=instagram&logoColor=white&link=https://www.instagram.com/rodrigo.goncalves.s/)](https://www.instagram.com/rodrigo.goncalves.s/) 
-  [![Linkedin Badge](https://img.shields.io/badge/-Rodrigo%20Gonçalves%20Santana-6633cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rodrigo-gon%C3%A7alves-santana/)](https://www.linkedin.com/in/rodrigo-gon%C3%A7alves-santana/) 
-</div>
+This project is under a MIT License. See [LICENSE](LICENSE.md) for details.
