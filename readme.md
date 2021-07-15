@@ -18,7 +18,7 @@
 
 ## Project
 
-This project was developed during the [Next Level Week](https://nextlevelweek.com/) by [Rocketseat](https://rocketseat.com.br). This app helps you to connect and schedule matches with your friends using Discord API to authenticate and fetch the needed information.
+This app helps you to connect and schedule matches with your friends using Discord API to authenticate and fetch the needed information. This project was developed during the [Next Level Week](https://nextlevelweek.com/) by [Rocketseat](https://rocketseat.com.br). 
 
 
 ## Technologies
@@ -50,16 +50,6 @@ Clone the project and access the folder.
 $ git clone https://github.com/jheanr/gameplay.git && cd gameplay
 ```
 
-You must create an app on Discord Developer Portal to get your credentials to authenticate. After that, edit the file **.env.example** and rename to **.env**
- 
- ```shell
-REDIRECT_URI=
-SCOPE=
-RESPONSE_TYPE=
-CLIENT_ID=
-CDN_IMAGE=
-```
-
 Follow these steps:
 
 ```shell
@@ -68,6 +58,16 @@ $ yarn
 
 # Run Expo
 $ expo start
+```
+
+You must create an app on Discord Developer Portal to get your credentials to authenticate. After that, edit the file `.env.example` and rename to `.env`.
+ 
+ ```shell
+REDIRECT_URI=
+SCOPE=
+RESPONSE_TYPE=
+CLIENT_ID=
+CDN_IMAGE=
 ```
 
 ## Layout
